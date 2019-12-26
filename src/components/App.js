@@ -295,7 +295,7 @@ class App extends Component {
               <Container className="card grid-card is-card-dark">
                 <Container className="card-heading mb-3">
                   <Container className="is-dark-text-light letter-spacing text-small">
-                    Total Revenue
+                    Social Media Views
                   </Container>
                 </Container>
                 <Container className="card-value pt-4 text-x-large">
