@@ -1,7 +1,6 @@
 {
   "name": "business-dashboard",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "bootstrap": "^4.2.1",
     "fusioncharts": "^3.13.3-sr.1",
