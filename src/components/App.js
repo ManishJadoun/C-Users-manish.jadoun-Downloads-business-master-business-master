@@ -223,7 +223,7 @@ class App extends Component {
               <Container className="card grid-card is-card-dark">
                 <Container className="card-heading">
                   <Container className="is-dark-text-light letter-spacing text-small">
-                    Total Revenue
+                    Total Expenditure
                   </Container>
                 </Container>
 
@@ -238,10 +238,10 @@ class App extends Component {
               <Container className="card grid-card is-card-dark">
                 <Container className="card-heading">
                   <Container className="is-dark-text-light letter-spacing text-small">
-                    Revenue from Amazon
+                    Expenditure on Vendors
                   </Container>
                   <Container className="card-heading-brand">
-                    <i className="fab fa-amazon text-large" />
+                    
                   </Container>
                 </Container>
 
@@ -256,10 +256,10 @@ class App extends Component {
               <Container className="card grid-card is-card-dark">
                 <Container className="card-heading">
                   <Container className="is-dark-text-light letter-spacing text-small">
-                    Revenue from Ebay
+                    Expenditure on Infrastructure
                   </Container>
                   <Container className="card-heading-brand">
-                    <i className="fab fa-ebay text-x-large logo-adjust" />
+                  
                   </Container>
                 </Container>
 
@@ -274,10 +274,10 @@ class App extends Component {
               <Container className="card grid-card is-card-dark">
                 <Container className="card-heading">
                   <Container className="is-dark-text-light letter-spacing text-small">
-                    Revenue from Etsy
+                    Licensing Cost
                   </Container>
                   <Container className="card-heading-brand">
-                    <i className="fab fa-etsy text-medium" />
+                   
                   </Container>
                 </Container>
 
@@ -295,7 +295,7 @@ class App extends Component {
               <Container className="card grid-card is-card-dark">
                 <Container className="card-heading mb-3">
                   <Container className="is-dark-text-light letter-spacing text-small">
-                    Product Views
+                    Total Revenue
                   </Container>
                 </Container>
                 <Container className="card-value pt-4 text-x-large">
@@ -321,7 +321,7 @@ class App extends Component {
                           containerBackgroundOpacity: "0",
                           dataSource: {
                             chart: {
-                              caption: "Purchase Rate",
+                              caption: "Attrition Rate",
                               theme: "ecommerce",
                               defaultCenterLabel: `${this.state.purchaseRate}%`,
                               paletteColors: "#3B70C4, #000000"
@@ -353,7 +353,7 @@ class App extends Component {
                           containerBackgroundOpacity: "0",
                           dataSource: {
                             chart: {
-                              caption: "Checkout Rate",
+                              caption: "Issues Rate",
                               theme: "ecommerce",
                               defaultCenterLabel: `${this.state.checkoutRate}%`,
                               paletteColors: "#41B6C4, #000000"
@@ -385,7 +385,7 @@ class App extends Component {
                           containerBackgroundOpacity: "0",
                           dataSource: {
                             chart: {
-                              caption: "Abandoned Cart Rate",
+                              caption: "Delievery Success Rate",
                               theme: "ecommerce",
                               defaultCenterLabel: `${
                                 this.state.abandonedRate
@@ -429,8 +429,8 @@ class App extends Component {
                       dataSource: {
                         chart: {
                           theme: "ecommerce",
-                          caption: "Orders Trend",
-                          subCaption: "By Stores"
+                          caption: "Orders Recieved",
+                          subCaption: "By Clients"
                         },
                         data: this.state.ordersTrendStore
                       }
@@ -454,7 +454,7 @@ class App extends Component {
                       dataSource: {
                         chart: {
                           theme: "ecommerce",
-                          caption: "Orders Trend",
+                          caption: "Orders Recieved",
                           subCaption: "By Region"
                         },
                         colorrange: {
